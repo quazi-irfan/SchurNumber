@@ -24,3 +24,7 @@ Change the `numOfColor` variable to the desired number of color and then either
 
 - Run the `App.java` file
 - or run the Gradle build file
+
+# Todo
+
+CPU utilization sits at 20%. I think cache miss is the probable cause.
