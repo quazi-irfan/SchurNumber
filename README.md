@@ -1,10 +1,16 @@
 # Schur Number
 
-Schur Number is how long we can color natural numbers and avoid monochromatic solution of equation $a = b + c$. This backtracking algorithm using stack finds all solutions for a given number of colors.
+Schur Number is how long we can color natural numbers and avoid monochromatic solution of equation $a = b + c$. This backtracking(DFS) algorithm using stack finds all solutions for a given number of colors.
 
 For 2 colors Schur Number is 4. These are the 2 solutions,
 
     [1001, 0110]
+
+In the first solution, natural number 1 and 4 are colored 1, and 2 and 3 are colored 0. 1, 2 and 3 are not all same color. 1, 3 and 4 are not all same color. But we can not avoid monochromatic solution if we color `5` with `1` because that will result in 1 + 4 = 5, where 1, 4 and 5 all are colored `1`. Similarlity, we can not avoid monochromatic solution if we color `5` with `0` because in that case 2, 3 and 5 will be colored the same. Meaning, natural numbers can not be colored past 4 with two colors without breaking the monochromatic properties. This is expressed `S(4) = 2`.
+
+This program calculate two things. The value of `S(n)` and colored natural numbers list of solution.
+
+--- 
 
 For 3 colors Schur Number is 13. These are the 18 solutions.
 
