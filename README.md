@@ -31,6 +31,8 @@ Change the `numOfColor` variable to the desired number of color and then either
 - Run the `App.java` file
 - or run the Gradle build file
 
-# Todo
+# Related
 
-CPU utilization sits at 20%. I think cache miss is the probable cause.
+[Boolean Python Triples Problem](https://en.wikipedia.org/wiki/Boolean_Pythagorean_triples_problem)
+
+[Schur's Theorm](https://en.wikipedia.org/wiki/Schur%27s_theorem)
