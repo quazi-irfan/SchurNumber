@@ -36,3 +36,5 @@ Change the `numOfColor` variable to the desired number of color and then either
 [Boolean Python Triples Problem](https://en.wikipedia.org/wiki/Boolean_Pythagorean_triples_problem)
 
 [Schur's Theorm](https://en.wikipedia.org/wiki/Schur%27s_theorem)
+
+[SAT Solver](https://en.wikipedia.org/wiki/SAT_solver)
